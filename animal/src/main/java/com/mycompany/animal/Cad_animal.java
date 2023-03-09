@@ -16,6 +16,7 @@ public class Cad_animal {
         animal_1.cor = "Caramelo";
         animal_1.sexo = 'M';
         animal_1.idade = 2;
+        animal_1.latir();
         
         Animal animal_2 = new Animal();
         animal_2.nome = "Rogerio";
@@ -23,14 +24,15 @@ public class Cad_animal {
         animal_2.cor = "Cinza";
         animal_2.sexo = 'M';
         animal_2.idade = 4;
+        animal_2.latir();
         
-     
         Animal animal_3 = new Animal();
         animal_3.nome = "Rihana";
         animal_3.tipo = "Galinha";
         animal_3.cor = "Marrom";
         animal_3.sexo = 'f';
         animal_3.idade = 3;
+        animal_3.latir();
         
         Animal animal_4 = new Animal();
         animal_4.nome = "Cleber";
@@ -38,6 +40,7 @@ public class Cad_animal {
         animal_4.cor = "Preto";
         animal_4.sexo = 'M';
         animal_4.idade = 2;
+        animal_4.latir();
         
         Animal animal_5 = new Animal();
         animal_5.nome = "Ferdinando";
@@ -45,9 +48,13 @@ public class Cad_animal {
         animal_5.cor = "Branco";
         animal_5.sexo = 'M';
         animal_5.idade = 7;
+        animal_5.latir();
+              
     
     
     }
+    
+  
     
     
     

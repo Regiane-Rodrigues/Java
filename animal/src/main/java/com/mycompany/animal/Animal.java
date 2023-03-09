@@ -20,6 +20,16 @@ public class Animal {
         public char sexo;
         public int idade;
         
+    void latir(){
+    
+        if(idade > 7)
+            System.out.println("Woof, woof");
+        else if (idade > 4)
+            System.out.println("Ruff, ruff");
+        else
+            System.out.println("Ypi, Ypi");
+    
+    }
        
 }
 
