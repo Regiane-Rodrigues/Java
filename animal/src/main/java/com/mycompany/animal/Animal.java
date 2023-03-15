@@ -20,6 +20,8 @@ public class Animal {
         public char sexo;
         public int idade;
         
+
+         
     void latir(){
     
         if(idade > 7)
@@ -31,6 +33,7 @@ public class Animal {
     
     }
        
+    
 }
 
 
